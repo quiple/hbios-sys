@@ -2,4 +2,4 @@
 * { font-size: 16px !important; font-weight: 400 !important; line-height: 16px !important; box-sizing: border-box; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges; image-rendering: pixelated; }
 h1, h2, h3, h4, h5, h6, p, ul, ol, li { margin: 0; padding: 0; }
 html, body { font-family: 'HBIOS-SYS', monospace; }
-.dos { width: 640px; margin: 0 auto; }
+.dos { max-width: 640px; margin: 0 auto; }
