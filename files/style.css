@@ -3,3 +3,8 @@
 h1, h2, h3, h4, h5, h6, p, ul, ol, li { margin: 0; padding: 0; }
 html, body { font-family: 'HBIOS-SYS', monospace; }
 .dos { max-width: 640px; margin: 0 auto; }
+.glyphs { word-break: break-all; }
+.blink { animation: .2s blink step-end infinite; }
+@keyframes blink {
+  50% { opacity: 0; }
+}
