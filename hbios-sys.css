@@ -1,0 +1,13 @@
+/**
+ * Copyright (c) 2015-2020 VileR, 2022 Minseo Lee (itoupluk427@gmail.com)
+ * This Font Software is licensed under the CC BY-SA 4.0.
+ */
+@font-face {
+  font-family: HBIOS-SYS;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('HBIOS-SYS Book'),
+       url('./hbios-sys.woff2') format('woff2'),
+       url('./hbios-sys.ttf') format('truetype');
+}
