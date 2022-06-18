@@ -59,3 +59,4 @@ html, body { font-family: 'HBIOS-SYS', monospace; }
   pointer-events: none;
 }
 .crt { text-shadow: 1px 0 1px rgba(0,30,255,.5), -1px 0 1px rgba(255,0,80,.3), 0 0 .5px; }
+.swiper-pagination { width: fit-content !important; bottom: 8px !important; left: initial !important; right: 8px; background: rgba(0,0,0,.5); padding: 0 8px; backdrop-filter: blur(8px); }
