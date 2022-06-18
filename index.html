@@ -45,6 +45,12 @@
     <p>※ 단, 글꼴을 수정하여 공유할 경우에는 CC BY-SA 4.0 혹은 이와 호환되는 라이선스를 적용하여야 합니다.</p><br><br><br>
     <h2>다운로드</h2>========<br><br>
     <p>┌────────────────┐ ┌──────────────────┐<br>│ <a href="https://github.com/quiple/hbios-sys/raw/main/hbios-sys.ttf">다운로드 (TTF)</a> │ │ <a href="https://github.com/quiple/hbios-sys/raw/main/hbios-sys.woff2">다운로드 (WOFF2)</a> │<br>└────────────────┘ └──────────────────┘</p><br><br><br>
+    <h2>웹폰트로 사용</h2><br>
+    <p>HTML에서:</p>
+    <pre>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/quiple/hbios-sys@latest/hbios-sys.css"&gt;</pre>
+    <p>CSS에서:</p>
+    <pre>@import url('https://cdn.jsdelivr.net/gh/quiple/hbios-sys@latest/hbios-sys.css');</pre>
+    <p>글자가족 선언: <code>HBIOS-SYS, monospace;</code></p><br><br><br>
     <h2>사용례</h2>======<br><br>
     <div class="swiper">
       <div class="swiper-wrapper">
@@ -79,7 +85,7 @@
       grabCursor: true,
       slidesPerView: 'auto',
       centeredSlides: true,
-      spaceBetween: 30,
+      spaceBetween: 16,
       pagination: {
         el: ".swiper-pagination",
         type: 'fraction'
