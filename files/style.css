@@ -6,7 +6,6 @@ pre { white-space: normal; border: 1px solid #aaa; border-width: 1px 2px; paddin
 .dos { max-width: 640px; margin: 0 auto; }
 .glyphs { word-break: break-all; white-space: normal; }
 .blink { animation: .2s blink step-end infinite; }
-textarea { width: 100%; resize: vertical; background: transparent; border: 1px solid #aaa; border-width: 1px 2px; outline: none; color: #aaa; padding: 7px 14px; height: 80px; min-height: 80px; }
 @keyframes blink {
   50% { opacity: 0; }
 }
