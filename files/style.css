@@ -1,6 +1,7 @@
 @font-face { font-family: 'HBIOS-SYS'; font-weight: 400; font-style: normal; font-display: block; src: url('../hbios-sys.woff2') format('woff2'), url('../hbios-sys.ttf') format('truetype'); }
 * { font-size: 16px !important; font-weight: 400 !important; line-height: 16px !important; box-sizing: border-box; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges; image-rendering: pixelated; }
 h1, h2, h3, h4, h5, h6, p, ul, ol, li { margin: 0; padding: 0; }
+ul { list-style: square; }
 html, body, pre, code { font-family: 'HBIOS-SYS', monospace; }
 pre { white-space: normal; border: 1px solid #aaa; border-width: 1px 2px; padding: 7px 14px; }
 .dos { max-width: 640px; margin: 0 auto; }
