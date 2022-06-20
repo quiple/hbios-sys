@@ -11,10 +11,13 @@ h2 { padding-bottom: 6px; margin-top: 48px; margin-bottom: 23px; border-bottom: 
 p { margin: 16px 0; }
 html, body, pre, code { font-family: 'HBIOS-SYS', monospace; }
 pre { white-space: normal; border: 1px solid #aaa; border-width: 1px 2px; padding: 7px 14px; }
-.dos { max-width: 640px; margin: 0 auto; }
+.dos { max-width: 656px; padding: 0 8px; margin: 0 auto; }
 .glyphs { word-break: break-all; white-space: normal; }
 .blink { animation: .2s blink step-end infinite; }
 hr { border: none; background-color: #aaa; height: 1px; margin-top: 24px; margin-bottom: 23px; }
+@media screen and (max-width: 720px) {
+  body { margin: 16px 0; }
+}
 @keyframes blink {
   50% { opacity: 0; }
 }
