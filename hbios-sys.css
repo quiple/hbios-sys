@@ -7,7 +7,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local('HBIOS-SYS Book'),
-       url('./hbios-sys.woff2') format('woff2'),
-       url('./hbios-sys.ttf') format('truetype');
+  src: local('HBIOS-SYS'),
+       url('./HBIOS-SYS.woff2') format('woff2'),
+       url('./HBIOS-SYS.ttf') format('truetype');
 }

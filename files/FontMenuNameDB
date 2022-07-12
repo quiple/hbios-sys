@@ -1,0 +1,10 @@
+[HBIOS-SYS]
+
+  f = 3, 1, 0x0409,HBIOS-SYS
+  f = 1, 0,      0,HBIOS-SYS
+
+  s = 3, 1, 0x0409,Regular
+  s = 1, 0,      0,Regular
+
+  l = 3, 1, 0x0409,HBIOS-SYS
+  m = 1, 0,      0,HBIOS-SYS

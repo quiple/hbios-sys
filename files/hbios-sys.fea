@@ -1,0 +1,114 @@
+table head {
+
+  FontRevision   1.043;
+
+} head;
+
+table hhea {
+
+  CaretOffset    0;
+  Ascender    1500;
+  Descender    300;
+  LineGap      200;
+
+} hhea;
+
+table name {
+
+  nameid  0 3 1 0x0409 "Copyright \0028c\0029 2015-2020 VileR \0028https:\002f\002fint10h.org\0029, 2019-2022 Minseo Lee \0028itoupluk427@gmail.com\0029";
+  nameid  0 1 0      0 "Copyright \28c\29 2015-2020 VileR \28https:\2f\2fint10h.org\29, 2019-2022 Minseo Lee \28itoupluk427@gmail.com\29";
+
+  nameid  9 3 1 0x0409 "Minseo Lee \0028Quiple\0029";
+  nameid  9 3 1 0x0412 "\c774\bbfc\c11c \0028Quiple\0029";
+  nameid  9 1 0      0 "Minseo Lee \28Quiple\29";
+  nameid  9 1 3     23 "\c774\bbfc\c11c \28Quiple\29";
+                       # 이민서 (Quiple)
+
+  nameid 11 3 1 0x0409 "https:\002f\002fquiple.dev";
+  nameid 11 1 0      0 "https:\2f\2fquiple.dev";
+
+  nameid 12 3 1 0x0409 "https:\002f\002fquiple.dev";
+  nameid 12 1 0      0 "https:\2f\2fquiple.dev";
+
+  nameid 13 3 1 0x0409 "This Font Software is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.";
+  nameid 13 3 1 0x0412 "\c774 \d3f0\d2b8 \c18c\d504\d2b8\c6e8\c5b4\b294 \d06c\b9ac\c5d0\c774\d2f0\be0c \cee4\ba3c\c988 \c800\c791\c790\d45c\c2dc-\b3d9\c77c\c870\ac74\bcc0\acbd\d5c8\b77d 4.0 \ad6d\c81c \b77c\c774\c120\c2a4\c5d0 \b530\b77c \c0ac\c6a9\c774 \d5c8\ac00\b429\b2c8\b2e4.";
+  nameid 13 1 0      0 "This Font Software is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.";
+  nameid 13 1 3     23 "\c774 \d3f0\d2b8 \c18c\d504\d2b8\c6e8\c5b4\b294 \d06c\b9ac\c5d0\c774\d2f0\be0c \cee4\ba3c\c988 \c800\c791\c790\d45c\c2dc-\b3d9\c77c\c870\ac74\bcc0\acbd\d5c8\b77d 4.0 \ad6d\c81c \b77c\c774\c120\c2a4\c5d0 \b530\b77c \c0ac\c6a9\c774 \d5c8\ac00\b429\b2c8\b2e4.";
+                       # 이 폰트 소프트웨어는 크리에이티브 커먼즈 저작자표시-동일조건변경허락 4.0 국제 라이선스에 따라 사용이 허가됩니다.
+
+  nameid 14 3 1 0x0409 "https:\002f\002fcreativecommons.org\002flicenses\002fby-sa\002f4.0";
+  nameid 14 1 0      0 "https:\2f\2fcreativecommons.org\2flicenses\2fby-sa\2f4.0";
+
+  nameid 21 3 1 0x0409 "HBIOS-SYS";
+  nameid 21 1 0      0 "HBIOS-SYS";
+
+  nameid 22 3 1 0x0409 "Regular";
+  nameid 22 1 0      0 "Regular";
+
+} name;
+
+table OS/2 {
+
+  FSType             0;  # Installable Embedding
+  Panose             2   # Latin Text
+                     4   # Square Cove
+                     5   # Book
+                     9   # Monospaced
+                     4   # Low
+                     2   # No Variation
+                     4   # Straight Arms/Vertical
+                 0 0 0;  # Any
+  UnicodeRange       0   # Basic Latin
+                     1   # Latin-1 Supplement
+                     2   # Latin Extended-A
+                     3   # Latin Extended-B
+                     4   # IPA Extensions
+                     7   # Greek and Coptic
+                     9   # Cyrillic
+                    11   # Hebrew
+                    29   # Latin Extended Additional
+                    31   # General Punctuation
+                    32   # Superscripts And Subscripts
+                    33   # Currency Symbols
+                    35   # Letterlike Symbols
+                    36   # Number Forms
+                    37   # Arrows
+                    38   # Mathematical Operators
+                    39   # Miscellaneous Technical
+                    43   # Box Drawing
+                    44   # Block Elements
+                    45   # Geometric Shapes
+                    46   # Miscellaneous Symbols
+                    47   # Dingbats
+                    48   # CJK Symbols And Punctuation
+                    49   # Hiragana
+                    50   # Katakana
+                    52   # Hangul Compatibility Jamo
+                    54   # Enclosed CJK Letters And Months
+                    55   # CJK Compatibility
+                    56   # Hangul Syllables
+                    62   # Alphabetic Presentation Forms
+                    69;  # Specials
+  CodePageRange   1252   # Latin 1
+                  1250   # Latin 2: Eastern Europe
+                  1251   # Cyrillic
+                  1253   # Greek
+                  1254   # Turkish
+                  1255   # Hebrew
+                   949;  # Korean Wansung
+  TypoAscender    1500;
+  TypoDescender   -300;
+  TypoLineGap      200;
+  winAscent       1500;
+  winDescent       300;
+  XHeight          700;
+  CapHeight       1000;
+  WeightClass      400;  # Normal (Regular)
+  WidthClass         5;  # Medium (Normal)
+  Vendor        "QPLE";
+  FamilyClass   0x0407;  # CS Typewriter
+
+} OS/2;
+
+# makeotf -mf files/FontMenuNameDB -f hbios-sys-temp.ttf -ff files/hbios-sys.fea -o HBIOS-SYS.ttf -osbOn 6 -addn
+# fonttools ttLib.woff2 compress HBIOS-SYS.ttf

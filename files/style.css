@@ -1,5 +1,5 @@
 @charset "utf-8";
-@font-face { font-family: 'HBIOS-SYS'; font-weight: 400; font-style: normal; font-display: block; src: url('../hbios-sys.woff2') format('woff2'), url('../hbios-sys.ttf') format('truetype'); }
+@font-face { font-family: 'HBIOS-SYS'; font-weight: 400; font-style: normal; font-display: block; src: url('../HBIOS-SYS.woff2') format('woff2'), url('../HBIOS-SYS.ttf') format('truetype'); }
 * { font-size: 16px !important; font-weight: 400 !important; line-height: 16px !important; box-sizing: border-box; image-rendering: -webkit-optimize-contrast; image-rendering: crisp-edges; image-rendering: pixelated; word-break: break-all; white-space: normal; filter: grayscale(1); }
 html, body, .dos, .swiper, .swiper *, li { filter: initial; }
 .swiper-pagination * { filter: grayscale(1); }
