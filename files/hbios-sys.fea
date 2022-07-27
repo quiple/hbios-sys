@@ -15,7 +15,7 @@ table hhea {
 
 table name {
 
-  nameid  0 3 1 0x0409 "Copyright \0028c\0029 2019-2022 Minseo Lee \0028itoupluk427@gmail.com\0029\000a\005bIBM EGA 8x14\005d\000aCopyright \28c\29 2015-2020 VileR \28https:\2f\2fint10h.org\29";
+  nameid  0 3 1 0x0409 "Copyright \0028c\0029 2019-2022 Minseo Lee \0028itoupluk427@gmail.com\0029\000a\005bIBM EGA 8x14\005d\000aCopyright \0028c\0029 2015-2020 VileR \0028https:\002f\002fint10h.org\0029";
   nameid  0 1 0      0 "Copyright \28c\29 2019-2022 Minseo Lee \28itoupluk427@gmail.com\29\0a\5bIBM EGA 8x14\5d\0aCopyright \28c\29 2015-2020 VileR \28https:\2f\2fint10h.org\29";
 
   nameid  9 3 1 0x0409 "Minseo Lee \0028Quiple\0029";
