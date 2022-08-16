@@ -1,15 +1,15 @@
 table head {
 
-  FontRevision   1.043;
+  FontRevision   1.044;
 
 } head;
 
 table hhea {
 
   CaretOffset    0;
-  Ascender    1500;
+  Ascender    1300;
   Descender    300;
-  LineGap      200;
+  LineGap        0;
 
 } hhea;
 
@@ -96,10 +96,10 @@ table OS/2 {
                   1254   # Turkish
                   1255   # Hebrew
                    949;  # Korean Wansung
-  TypoAscender    1500;
+  TypoAscender    1300;
   TypoDescender   -300;
-  TypoLineGap      200;
-  winAscent       1500;
+  TypoLineGap        0;
+  winAscent       1300;
   winDescent       300;
   XHeight          700;
   CapHeight       1000;
