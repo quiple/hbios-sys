@@ -24,6 +24,7 @@
   <style>
     ::selection { background-color: #aaa; color: #000; }
     html, body { background-color: #000; color: #aaa; }
+    body { margin: 48px 0; }
     a, button { background-color: transparent; color: #aaa; text-decoration: underline; cursor: pointer; }
     a:hover, button:hover { background-color: #aaa; color: #000; text-decoration: none; }
     .anchor { text-decoration: none; }
@@ -37,6 +38,9 @@
     .s3 { background-color: #00a; color: #fff; }
     .s3 span { background-color: #fff; color: #00a; }
     .glyphs { display: none; }
+    @media (max-width: 720px) {
+      body { margin: 16px 0; }
+    }
   </style>
 </head>
 
