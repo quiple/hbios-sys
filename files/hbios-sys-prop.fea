@@ -114,4 +114,4 @@ table OS/2 {
 
 } OS/2;
 
-# makeotf -mf files/FontMenuNameDB -f hbios-sys-temp.ttf -ff files/hbios-sys-prop.fea -o HBIOS-SYS-prop.ttf -osbOn 6 -addn
+# makeotf -mf files/FontMenuNameDB -f hbios-sys-temp.ttf -ff files/hbios-sys-prop.fea -o HBIOS-SYS-prop.ttf -osbOn 6

@@ -114,5 +114,5 @@ table OS/2 {
 
 } OS/2;
 
-# makeotf -mf files/FontMenuNameDB -f hbios-sys-temp.ttf -ff files/hbios-sys.fea -o HBIOS-SYS.ttf -osbOn 6 -addn
+# makeotf -mf files/FontMenuNameDB -f hbios-sys-temp.ttf -ff files/hbios-sys.fea -o HBIOS-SYS.ttf -osbOn 6
 # fonttools ttLib.woff2 compress HBIOS-SYS.ttf
